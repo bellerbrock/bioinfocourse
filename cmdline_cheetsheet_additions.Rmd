@@ -1,0 +1,47 @@
+---
+output: pdf_document
+---
+<img height="60" width="60" src="/home/bryan/Desktop/CheatSheets/sgn_logo.png"></img>
+<img style="float:right" height="60" width="60" src="/home/bryan/Desktop/CheatSheets/bti_logo.png"></img>
+
+<center> <h1>Shortcuts and Extras</h1> </center>
+<center> <h4>BTI-SGN Bioinformatics Course 2016</h4> </center>
+
+### Terminal shortcuts
+ Keys | Description 
+:----------:|--------------------
+*tab* | complete a partially typed filename or command
+*up arrow* | see previous command
+*down arrow* | see next command
+*ctrl + shift + c* | **copy**
+*ctrl + shift + z* | **paste**
+*ctrl + a* | go to beginning of line
+*ctrl + e* | go to end of line
+*ctrl + l* | clear screen
+*ctrl + d* | close terminal
+*ctrl + k* | cut from cursor to line end
+*ctrl + u* | cut from cursor to line beginning
+*ctrl + y* | paste what was just cut (yank)
+*ctrl + c* | cancel running process
+*ctrl + z* | stop or suspend a process
+*q* | to quit out of most things, for example man pages and less 
+*ctrl + shift + n* | open another terminal in a new window
+*ctrl + shift + t* | open another terminal in a new tab
+*alt + tab* | shift between windows
+*alt + 3* | shift to third tab
+
+### Additional useful commands
+
+ Command | Description 
+:----------------:|----------------------------
+`fg` | resume a stopped process in the foreground
+`bg`| resume a stopped process in the background
+`!!` | repeat last command
+`zless <filename>` | exactly the same as less, but for compressed files
+`readlink -f <filename>` | retrieve full path of a file
+`ack-grep <pattern>` | grep, but searches for provided pattern in all files within or below current directory
+`sort -V <filename>` | version number sort, can hanlde strings that include both letters and numbers
+`htop` | more developed version of top, may need to use `apt-get install htop` to install it
+`du -sh <directoryname>` | similar to `df -h` but shows disk space usage of an individual directory
+
+
